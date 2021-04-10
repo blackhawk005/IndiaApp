@@ -1,0 +1,51 @@
+[
+  {
+    "id" : "serengeti",
+    "name" : "Guru Ghasidas (Sanjay) National Park coordinates",
+    "image" : "map-serengeti",
+    "latitude" : 23.8678,
+    "longitude" : 82.0625
+  },
+  {
+    "id" : "kruger",
+    "name" : "Khangchendzonga National Park",
+    "image" : "map-kruger",
+    "latitude" : 27.6672,
+    "longitude" : 88.3246
+  },
+  {
+    "id" : "chobe",
+    "name" : "Namdapha National Park",
+    "image" : "map-chobe",
+    "latitude" : 27.4455,
+    "longitude" : 96.5358
+  },
+  {
+    "id" : "kidepo",
+    "name" : "Nagarhole National Park",
+    "image" : "map-kidepo",
+    "latitude" : 12.0314,
+    "longitude" : 76.1207
+  },
+  {
+    "id" : "etosha",
+    "name" : "Desert National Park",
+    "image" : "map-etosha",
+    "latitude" : 26.9101,
+    "longitude" : 70.8086
+  },
+  {
+    "id" : "solonga",
+    "name" : "Hemis National Park",
+    "image" : "map-solonga",
+    "latitude" : 33.7187,
+    "longitude" : 77.3882
+  },
+  {
+    "id" : "sanjay",
+    "name" : "Sanjay Gandhi National Park",
+    "image" : "map-tiger",
+    "latitude" : 19.2288,
+    "longitude" : 72.9182
+  }
+]
