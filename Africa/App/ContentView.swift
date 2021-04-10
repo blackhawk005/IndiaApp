@@ -19,6 +19,7 @@ struct ContentView: View {
     @State private var gridLayout: [GridItem] = [ GridItem(.flexible()) ]
     @State private var gridColumn: Int = 1
     @State private var toolBarIcon: String = "square.grid.2x2"
+    @State private var isShowingSettings: Bool = false
     
     // MARK: - FUNCTIONS
     
@@ -98,6 +99,17 @@ struct ContentView: View {
                                 .font(.title2)
                                 .foregroundColor(isGridViewActive ? .accentColor : .primary)
                         }//: BUTTON
+                        // Button(action: {
+                        //     isShowingSettings = true
+                        //     haptics.impactOccurred()
+                        // }){
+                        //     Image(systemName: "info.circle")
+                        //         .font(.title2)
+                        //         .foregroundColor(isShowingSettings ? .accentColor : .primary)
+                        // }//: BUTTON
+                        // .sheet(isPresented: $isShowingSettings){
+                        //     SettingsView()
+                        //     }
                     }//: HSTACK
                 }//: BUTTONS
             }//: TOOLBAR
